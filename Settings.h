@@ -12,5 +12,5 @@ using namespace sf;
 
 
 #define MaxBalls  10
-#define MaxBonuses  12
+#define MaxBonuses  80
 

@@ -7,7 +7,7 @@
 
 Bonus::Bonus(std::vector < Ball*> Balls, Paddle *paddle,  std::vector<std::vector<Block*>> Blocks, int *safebottom, int i) : Balls(Balls), paddle(paddle), Blocks(Blocks), safebottom(safebottom)
 {
-	static String Names[6] = { "bonus_paddlescale","bonus_ballspeed","bonus_stickypaddle","bonus_safebottom","bonus_makeball","bonus_movingblock" };
+	static String Names[6] = { "bonus_ballspeed","bonus_paddlescale","bonus_makeball","bonus_movingblock","bonus_safebottom","bonus_stickypaddle"};
 	speed = { 0, 0 };
 	scr_position = { -100,-100 };
 	img.loadFromFile("resourses/" + Names[i % 6] + ".png");
